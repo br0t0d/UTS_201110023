@@ -1,0 +1,48 @@
+body {
+    background-color: #fffffe;
+}
+
+a {
+    text-decoration: none;
+}
+
+.loginform {
+    width: 500px;
+    height: 50vh;
+    background-color: #ebebeb;
+    margin: 25vh auto;
+    padding: 10px;
+    box-shadow: 0 0 15px 10px #90b4ce;
+    text-align: center;
+}
+
+.form_login>input {
+    width: 75%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.pesan_login {
+    color: red;
+    position: absolute;
+    width: 480px;
+}
+
+.button_login {
+    background-color: #094067;
+    color: #fffffe;
+    border-radius: 5px;
+    border: none;
+    margin-top: 35px;
+}
+
+.button_login:hover {
+    background-color: #083758;
+}
+
+.link_nav>span>a {
+    text-decoration: none;
+    color: #000;
+}
