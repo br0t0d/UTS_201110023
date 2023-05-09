@@ -12,21 +12,33 @@
     <title>Kesehatan</title>
 </head>
 
+<script language="JavaScript">
+    function Login() {
+        var user = document.getElementById("username").value;
+        var pass = document.getElementById("password").value;
+        if (user == "user") {
+            if (pass == "user") {
+                window.location.href = "daftar.html";
+            }
+        } else {
+            alert("Username dan password anda salah!");
+        }
+    }
+</script>
+
 <body>
     <div class="loginform">
         <h3>LOGIN</h3>
         <hr>
-        <form action="proses.php" method='post' class="form_login">
+        <form class="form_login">
             <label for="username">Username : user</label><br>
             <input type="text" name="username" id="username" style="background-color: #fffffe;"> <br>
             <label for="password">Password : user</label><br>
             <input type="password" name="password" id="password" style="background-color: #fffffe;"><br>
-
             <div class="pesan_login">
             </div>
-            <input type="submit" name="submit" value="Masuk" class="button_login" style="width: 30%;">
+            <button type="button" onclick="Login()" class="button_login" style="width: 30%; padding: 10px;">Login
         </form>
-
     </div>
 </body>
 
