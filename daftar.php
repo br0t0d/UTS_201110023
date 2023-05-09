@@ -30,7 +30,7 @@
                             <a class="nav-link text-light" href="cek.php"><b>Cek Mental</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="index.php" onclick="return confirm('Lanjutkan untuk keluar');"><b>Log Out</b></a>
+                            <a class="nav-link text-light" href="index.html" onclick="return confirm('Lanjutkan untuk keluar');"><b>Log Out</b></a>
                         </li>
                     </ul>
                 </form>
