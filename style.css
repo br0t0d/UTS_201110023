@@ -7,7 +7,7 @@ a {
 }
 
 .loginform {
-    width: 75%;
+    width: 500px;
     height: 50vh;
     background-color: #ebebeb;
     margin: 25vh auto;
@@ -45,4 +45,21 @@ a {
 .link_nav>span>a {
     text-decoration: none;
     color: #000;
+}
+
+@media only screen and (max-width: 991px) {
+    .button_login {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .loginform {
+        width: 70%;
+    }
+
+    .button_login {
+        margin-top: 15px;
+        width: 50%;
+    }
 }
